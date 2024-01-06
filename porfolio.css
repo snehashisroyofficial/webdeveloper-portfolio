@@ -5,7 +5,7 @@
   /* margin: 0px; */
 }
 
-/* primary styles */
+/* primary | common styles */
 
 .text-primary {
   color: #fd6e0a;
@@ -117,6 +117,7 @@ main {
 /* about section style  */
 .about {
   padding: 130px;
+  margin-top: 130px;
   border-radius: 20px;
   background: #ffd7bb;
 }
@@ -135,4 +136,15 @@ main {
 }
 .info-description {
   font-weight: bold;
+}
+
+/* what i do (my quality) */
+
+.my-quality {
+  margin-top: 130px;
+}
+
+#what-i-do {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
