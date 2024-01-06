@@ -19,6 +19,8 @@
   padding: 18px 35px;
 }
 
+/* navigation styles */
+
 nav {
   display: flex;
   align-items: center;
@@ -51,14 +53,38 @@ nav a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 38px 38px 38px 230px;
+  padding: 38px 38px 0px 230px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.profile-pic {
+banner .profile-pic {
   width: 500px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
