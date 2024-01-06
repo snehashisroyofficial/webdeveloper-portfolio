@@ -103,9 +103,9 @@ main {
   margin: 130px auto;
 }
 
-.section-title {
+main section {
+  margin-top: 130px;
 }
-
 .section-description {
   color: #757575;
   text-align: center;
@@ -117,9 +117,9 @@ main {
 /* about section style  */
 .about {
   padding: 130px;
-  margin-top: 130px;
+
   border-radius: 20px;
-  background: #ffd7bb;
+  background: #fceee5;
 }
 
 .about-info-container {
@@ -140,11 +140,17 @@ main {
 
 /* what i do (my quality) */
 
-.my-quality {
-  margin-top: 130px;
-}
-
 #what-i-do {
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+
+  box-shadow: 7px 6px 50px 4px rgba(0, 0, 0, 0.06);
 }
