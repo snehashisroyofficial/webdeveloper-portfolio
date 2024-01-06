@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
 * {
   font-family: "Open Sans", sans-serif;
+  /* margin: 0px; */
 }
 
 /* primary styles */
@@ -17,6 +18,13 @@
   font-weight: 700;
   border: 0px;
   padding: 18px 35px;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 /* navigation styles */
@@ -87,4 +95,44 @@ banner .profile-pic {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+/* main section style  */
+main {
+  max-width: 1140px;
+  margin: 130px auto;
+}
+
+.section-title {
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+/* about section style  */
+.about {
+  padding: 130px;
+  border-radius: 20px;
+  background: #ffd7bb;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  margin-right: 50px;
+  text-align: center;
+}
+.info-title {
+  font-weight: lighter;
+}
+.info-description {
+  font-weight: bold;
 }
