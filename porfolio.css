@@ -195,3 +195,10 @@ main section {
   font-weight: 400;
   margin-bottom: 30px;
 }
+
+/* download cv  */
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
