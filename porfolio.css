@@ -202,3 +202,12 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* footer section  */
+
+.footer-container {
+  display: flex;
+  padding: 130px 230px;
+  margin-top: 113px;
+  background-color: #fccdab;
+}
